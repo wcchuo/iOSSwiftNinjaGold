@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B593DBB01B794E9300A2C054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B593DBAF1B794E9300A2C054 /* AppDelegate.swift */; };
+		B593DBB21B794E9300A2C054 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B593DBB11B794E9300A2C054 /* ViewController.swift */; };
+		B593DBB51B794E9300A2C054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B593DBB31B794E9300A2C054 /* Main.storyboard */; };
+		B593DBB71B794E9300A2C054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B593DBB61B794E9300A2C054 /* Assets.xcassets */; };
+		B593DBBA1B794E9300A2C054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B593DBB81B794E9300A2C054 /* LaunchScreen.storyboard */; };
+		B593DBC51B794E9300A2C054 /* Ninja_GoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B593DBC41B794E9300A2C054 /* Ninja_GoldTests.swift */; };
+		B593DBD01B794E9300A2C054 /* Ninja_GoldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B593DBCF1B794E9300A2C054 /* Ninja_GoldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B593DBC11B794E9300A2C054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B593DBA41B794E9300A2C054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B593DBAB1B794E9300A2C054;
+			remoteInfo = "Ninja Gold";
+		};
+		B593DBCC1B794E9300A2C054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B593DBA41B794E9300A2C054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B593DBAB1B794E9300A2C054;
+			remoteInfo = "Ninja Gold";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B593DBAC1B794E9300A2C054 /* Ninja Gold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ninja Gold.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B593DBAF1B794E9300A2C054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B593DBB11B794E9300A2C054 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B593DBB41B794E9300A2C054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B593DBB61B794E9300A2C054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B593DBB91B794E9300A2C054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B593DBBB1B794E9300A2C054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B593DBC01B794E9300A2C054 /* Ninja GoldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ninja GoldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B593DBC41B794E9300A2C054 /* Ninja_GoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ninja_GoldTests.swift; sourceTree = "<group>"; };
+		B593DBC61B794E9300A2C054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B593DBCB1B794E9300A2C054 /* Ninja GoldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ninja GoldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B593DBCF1B794E9300A2C054 /* Ninja_GoldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ninja_GoldUITests.swift; sourceTree = "<group>"; };
+		B593DBD11B794E9300A2C054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B593DBA91B794E9300A2C054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B593DBBD1B794E9300A2C054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B593DBC81B794E9300A2C054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B593DBA31B794E9300A2C054 = {
+			isa = PBXGroup;
+			children = (
+				B593DBAE1B794E9300A2C054 /* Ninja Gold */,
+				B593DBC31B794E9300A2C054 /* Ninja GoldTests */,
+				B593DBCE1B794E9300A2C054 /* Ninja GoldUITests */,
+				B593DBAD1B794E9300A2C054 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B593DBAD1B794E9300A2C054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B593DBAC1B794E9300A2C054 /* Ninja Gold.app */,
+				B593DBC01B794E9300A2C054 /* Ninja GoldTests.xctest */,
+				B593DBCB1B794E9300A2C054 /* Ninja GoldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B593DBAE1B794E9300A2C054 /* Ninja Gold */ = {
+			isa = PBXGroup;
+			children = (
+				B593DBAF1B794E9300A2C054 /* AppDelegate.swift */,
+				B593DBB11B794E9300A2C054 /* ViewController.swift */,
+				B593DBB31B794E9300A2C054 /* Main.storyboard */,
+				B593DBB61B794E9300A2C054 /* Assets.xcassets */,
+				B593DBB81B794E9300A2C054 /* LaunchScreen.storyboard */,
+				B593DBBB1B794E9300A2C054 /* Info.plist */,
+			);
+			path = "Ninja Gold";
+			sourceTree = "<group>";
+		};
+		B593DBC31B794E9300A2C054 /* Ninja GoldTests */ = {
+			isa = PBXGroup;
+			children = (
+				B593DBC41B794E9300A2C054 /* Ninja_GoldTests.swift */,
+				B593DBC61B794E9300A2C054 /* Info.plist */,
+			);
+			path = "Ninja GoldTests";
+			sourceTree = "<group>";
+		};
+		B593DBCE1B794E9300A2C054 /* Ninja GoldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B593DBCF1B794E9300A2C054 /* Ninja_GoldUITests.swift */,
+				B593DBD11B794E9300A2C054 /* Info.plist */,
+			);
+			path = "Ninja GoldUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B593DBAB1B794E9300A2C054 /* Ninja Gold */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B593DBD41B794E9300A2C054 /* Build configuration list for PBXNativeTarget "Ninja Gold" */;
+			buildPhases = (
+				B593DBA81B794E9300A2C054 /* Sources */,
+				B593DBA91B794E9300A2C054 /* Frameworks */,
+				B593DBAA1B794E9300A2C054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ninja Gold";
+			productName = "Ninja Gold";
+			productReference = B593DBAC1B794E9300A2C054 /* Ninja Gold.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B593DBBF1B794E9300A2C054 /* Ninja GoldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B593DBD71B794E9300A2C054 /* Build configuration list for PBXNativeTarget "Ninja GoldTests" */;
+			buildPhases = (
+				B593DBBC1B794E9300A2C054 /* Sources */,
+				B593DBBD1B794E9300A2C054 /* Frameworks */,
+				B593DBBE1B794E9300A2C054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B593DBC21B794E9300A2C054 /* PBXTargetDependency */,
+			);
+			name = "Ninja GoldTests";
+			productName = "Ninja GoldTests";
+			productReference = B593DBC01B794E9300A2C054 /* Ninja GoldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B593DBCA1B794E9300A2C054 /* Ninja GoldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B593DBDA1B794E9300A2C054 /* Build configuration list for PBXNativeTarget "Ninja GoldUITests" */;
+			buildPhases = (
+				B593DBC71B794E9300A2C054 /* Sources */,
+				B593DBC81B794E9300A2C054 /* Frameworks */,
+				B593DBC91B794E9300A2C054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B593DBCD1B794E9300A2C054 /* PBXTargetDependency */,
+			);
+			name = "Ninja GoldUITests";
+			productName = "Ninja GoldUITests";
+			productReference = B593DBCB1B794E9300A2C054 /* Ninja GoldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B593DBA41B794E9300A2C054 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Wei Chung Chuo";
+				TargetAttributes = {
+					B593DBAB1B794E9300A2C054 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B593DBBF1B794E9300A2C054 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B593DBAB1B794E9300A2C054;
+					};
+					B593DBCA1B794E9300A2C054 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B593DBAB1B794E9300A2C054;
+					};
+				};
+			};
+			buildConfigurationList = B593DBA71B794E9300A2C054 /* Build configuration list for PBXProject "Ninja Gold" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B593DBA31B794E9300A2C054;
+			productRefGroup = B593DBAD1B794E9300A2C054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B593DBAB1B794E9300A2C054 /* Ninja Gold */,
+				B593DBBF1B794E9300A2C054 /* Ninja GoldTests */,
+				B593DBCA1B794E9300A2C054 /* Ninja GoldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B593DBAA1B794E9300A2C054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B593DBBA1B794E9300A2C054 /* LaunchScreen.storyboard in Resources */,
+				B593DBB71B794E9300A2C054 /* Assets.xcassets in Resources */,
+				B593DBB51B794E9300A2C054 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B593DBBE1B794E9300A2C054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B593DBC91B794E9300A2C054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B593DBA81B794E9300A2C054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B593DBB21B794E9300A2C054 /* ViewController.swift in Sources */,
+				B593DBB01B794E9300A2C054 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B593DBBC1B794E9300A2C054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B593DBC51B794E9300A2C054 /* Ninja_GoldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B593DBC71B794E9300A2C054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B593DBD01B794E9300A2C054 /* Ninja_GoldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B593DBC21B794E9300A2C054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B593DBAB1B794E9300A2C054 /* Ninja Gold */;
+			targetProxy = B593DBC11B794E9300A2C054 /* PBXContainerItemProxy */;
+		};
+		B593DBCD1B794E9300A2C054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B593DBAB1B794E9300A2C054 /* Ninja Gold */;
+			targetProxy = B593DBCC1B794E9300A2C054 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B593DBB31B794E9300A2C054 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B593DBB41B794E9300A2C054 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B593DBB81B794E9300A2C054 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B593DBB91B794E9300A2C054 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B593DBD21B794E9300A2C054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B593DBD31B794E9300A2C054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B593DBD51B794E9300A2C054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ninja Gold/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wcc.Ninja-Gold";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B593DBD61B794E9300A2C054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ninja Gold/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wcc.Ninja-Gold";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B593DBD81B794E9300A2C054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ninja GoldTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wcc.Ninja-GoldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ninja Gold.app/Ninja Gold";
+			};
+			name = Debug;
+		};
+		B593DBD91B794E9300A2C054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ninja GoldTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wcc.Ninja-GoldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ninja Gold.app/Ninja Gold";
+			};
+			name = Release;
+		};
+		B593DBDB1B794E9300A2C054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ninja GoldUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wcc.Ninja-GoldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ninja Gold";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B593DBDC1B794E9300A2C054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ninja GoldUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wcc.Ninja-GoldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ninja Gold";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B593DBA71B794E9300A2C054 /* Build configuration list for PBXProject "Ninja Gold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B593DBD21B794E9300A2C054 /* Debug */,
+				B593DBD31B794E9300A2C054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B593DBD41B794E9300A2C054 /* Build configuration list for PBXNativeTarget "Ninja Gold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B593DBD51B794E9300A2C054 /* Debug */,
+				B593DBD61B794E9300A2C054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B593DBD71B794E9300A2C054 /* Build configuration list for PBXNativeTarget "Ninja GoldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B593DBD81B794E9300A2C054 /* Debug */,
+				B593DBD91B794E9300A2C054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B593DBDA1B794E9300A2C054 /* Build configuration list for PBXNativeTarget "Ninja GoldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B593DBDB1B794E9300A2C054 /* Debug */,
+				B593DBDC1B794E9300A2C054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B593DBA41B794E9300A2C054 /* Project object */;
+}
